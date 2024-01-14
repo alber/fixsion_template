@@ -1,0 +1,14 @@
+1 Generated as IonicFramework tabs pwa app with (Capacitor enabled) for React
+2 Installed XState
+3 Installed Firebase, Firebase for React, Firebase-tools (includes CLI)
+4 Installed Geofirestore JS
+5 Installed react-firebase-hooks
+
+
+To begin: 
+1 create new Firebase project
+2 register a clone of this app on that new Firebase project
+3 get crackin 
+
+To finish:
+Either run through Capacitor builds OR use Appflow with your account

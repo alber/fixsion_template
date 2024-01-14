@@ -1,0 +1,89 @@
+
+Next steps: 
+https://capacitorjs.com/docs/getting-started#where-to-go-next
+[OK] Integration capacitor added!
+
+Installing dependencies may take several minutes.
+
+  ──────────────────────────────────────────────────────────────────────────────
+
+         Ionic Advisory, tailored solutions and expert services by Ionic
+
+                             Go to market faster 🏆
+                    Real-time troubleshooting and guidance 💁
+        Custom training, best practices, code and architecture reviews 🔎
+      Customized strategies for every phase of the development lifecycle 🔮
+
+                        👉  https://ion.link/advisory  👈
+
+  ──────────────────────────────────────────────────────────────────────────────
+
+
+> npm i
+
+up to date, audited 753 packages in 3s
+
+153 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+> git init
+Initialized empty Git repository in /Users/hadm/Public/fixsion_template/fixsion/.git/
+
+Join the Ionic Community! 💙
+
+Connect with millions of developers on the Ionic Forum and get access to live
+events, news updates, and more.
+
+? Create free Ionic account? Yes
+> git add -A
+> git commit -m "Initial commit" --no-gpg-sign
+[master (root-commit) ec81c6e] Initial commit
+ 33 files changed, 10705 insertions(+)
+ create mode 100644 .browserslistrc
+ create mode 100644 .eslintrc.js
+ create mode 100644 .gitignore
+ create mode 100644 .vscode/extensions.json
+ create mode 100644 capacitor.config.ts
+ create mode 100644 cypress.config.ts
+ create mode 100644 cypress/e2e/test.cy.ts
+ create mode 100644 cypress/fixtures/example.json
+ create mode 100644 cypress/support/commands.ts
+ create mode 100644 cypress/support/e2e.ts
+ create mode 100644 index.html
+ create mode 100644 ionic.config.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.png
+ create mode 100644 public/manifest.json
+ create mode 100644 src/App.test.tsx
+ create mode 100644 src/App.tsx
+ create mode 100644 src/components/ExploreContainer.css
+ create mode 100644 src/components/ExploreContainer.tsx
+ create mode 100644 src/main.tsx
+ create mode 100644 src/pages/Tab1.css
+ create mode 100644 src/pages/Tab1.tsx
+ create mode 100644 src/pages/Tab2.css
+ create mode 100644 src/pages/Tab2.tsx
+ create mode 100644 src/pages/Tab3.css
+ create mode 100644 src/pages/Tab3.tsx
+ create mode 100644 src/setupTests.ts
+ create mode 100644 src/theme/variables.css
+ create mode 100644 src/vite-env.d.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 tsconfig.node.json
+ create mode 100644 vite.config.ts
+
+Your Ionic app is ready! Follow these next steps:
+
+- Go to your new project: cd ./fixsion
+- Run ionic serve within the app directory to see your app in the browser
+- Run ionic capacitor add to add a native iOS or Android project using Capacitor
+- Generate your app icon and splash screens using cordova-res --skip-config
+--copy
+- Explore the Ionic docs for components, tutorials, and more:
+https://ion.link/docs
+- Building an enterprise app? Ionic has Enterprise Support and Features:
+https://ion.link/enterprise-edition
+Marialbas-MacBook-Pro:fixsion_template hadm$ 
+
