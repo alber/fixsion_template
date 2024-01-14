@@ -6,6 +6,7 @@
 
 
 To begin: 
+0 cd inside app folder and npm install
 1 create new Firebase project
 2 register a clone of this app on that new Firebase project
 3 get crackin 
