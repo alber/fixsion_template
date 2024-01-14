@@ -87,3 +87,131 @@ https://ion.link/docs
 https://ion.link/enterprise-edition
 Marialbas-MacBook-Pro:fixsion_template hadm$ 
 
+==========================================================================
+==========================================================================
+==========================================================================
+( this is Firebase output after registering a new Web App )
+==========================================================================
+==========================================================================
+==========================================================================
+Firebase logo
+Project Overview
+Project shortcuts
+Firestore Database
+Hosting
+Authentication
+Product categories
+Build
+Authentication
+App Check
+Firestore Database
+Realtime Database
+Extensions
+Storage
+Hosting
+Functions
+Machine Learning
+Remote Config
+Release & Monitor
+Crashlytics
+Performance
+Test Lab
+App Distribution
+Remote Config
+Analytics
+Dashboard
+Realtime Analytics
+Events
+Conversions
+Audiences
+Custom Definitions
+Latest Release
+DebugView
+Engage
+A/B Testing
+Messaging
+Remote Config
+Dynamic Links
+AdMob
+Crashlytics
+Authentication
+All products
+Customize your nav!
+You can now focus your console experience by customizing your navigation
+Billing plan: Spark
+No-cost $0/month
+PonchappUniversal
+Choose a product to add to your app
+Store and sync app data in milliseconds
+Authentication
+Authenticate and manage users
+Cloud Firestore
+Realtime updates, powerful queries, and automatic scaling
+See all Build features
+Keep tabs on your app's quality
+Crashlytics
+Prioritize and fix stability issues
+Performance
+Get insights into your app's performance
+See all Release & Monitor features
+Grow & engage your audience
+Cloud Messaging
+Engage the right users at the right time
+A/B Testing
+Improve key flows & notifications
+See all Engage features
+Deploy extended functionality to your app quickly
+Extensions
+Pre-packaged solutions that save you time
+See all Extensions features
+See all Firebase features
+This will be the name presented to users when they are shown any public instances of your project. For example, this will be the name displayed on emails that your users receive after creating an account with your app.
+Go to docs
+Add Firebase to your web app
+Completed
+Register app
+2
+Add Firebase SDK
+Use npm
+Use a <script> tag
+
+If you're already using npm and a module bundler such as webpack or Rollup, you can run the following command to install the latest SDK (Learn more):
+npm install firebase
+
+Then, initialize Firebase and begin using the SDKs for the products you'd like to use.
+// Import the functions you need from the SDKs you need
+
+import { initializeApp } from "firebase/app";
+
+// TODO: Add SDKs for Firebase products that you want to use
+
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+
+// Your web app's Firebase configuration
+
+const firebaseConfig = {
+
+  apiKey: "AIzaSyD3idIY1S1hfRVtTp6Yg198_5CgiG7ol3s",
+
+  authDomain: "ponchappuniversal.firebaseapp.com",
+
+  projectId: "ponchappuniversal",
+
+  storageBucket: "ponchappuniversal.appspot.com",
+
+  messagingSenderId: "368484333874",
+
+  appId: "1:368484333874:web:e3dd1beef1cbf1ce9e7f2b"
+
+};
+
+
+// Initialize Firebase
+
+const app = initializeApp(firebaseConfig);
+
+Note: This option uses the modular JavaScript SDK, which provides reduced SDK size.
+
+Learn more about Firebase for web: Get Started, Web SDK API Reference, Samples
+
