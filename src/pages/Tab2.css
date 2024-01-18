@@ -1,0 +1,8 @@
+.vis_true {
+    visibility: visible;
+}
+
+.vis_false {
+    visibility: hidden;
+    display:none;
+}

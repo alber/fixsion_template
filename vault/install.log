@@ -192,17 +192,17 @@ import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyD3idIY1S1hfRVtTp6Yg198_5CgiG7ol3s",
+  apiKey: "",
 
-  authDomain: "ponchappuniversal.firebaseapp.com",
+  authDomain: "",
 
-  projectId: "ponchappuniversal",
+  projectId: "",
 
-  storageBucket: "ponchappuniversal.appspot.com",
+  storageBucket: "",
 
-  messagingSenderId: "368484333874",
+  messagingSenderId: "",
 
-  appId: "1:368484333874:web:e3dd1beef1cbf1ce9e7f2b"
+  appId: ""
 
 };
 
@@ -215,3 +215,58 @@ Note: This option uses the modular JavaScript SDK, which provides reduced SDK si
 
 Learn more about Firebase for web: Get Started, Web SDK API Reference, Samples
 
+===========
+===========
+===========
+
+
+Okay so when integrating firebase.
+After setup functions and init functions
+Opt into firebaseUi auth workflow
+You'll need PROVIDER_ID variable on the uiConfig code
+for google provider, this means:
+
+1. create GoogleCloudProject if it does not exist
+2. add any required APIs (implies accounting with Google paid services)
+3. create OAuth credentials, configure the screen, configure the endpoints
+4. implies having homepage TOS and Privacy Policy links for your client app
+5. implies hosting somwhere probably, i chose firebase itself
+6. and running local commands to get that done: npm firebase-tools install, firebase login, firebase init...
+
+gcloud services list --enabled --format="value(config.name)"
+appengine.googleapis.com
+XXX bigquery.googleapis.com
+XXX bigquerymigration.googleapis.com
+XXX bigquerystorage.googleapis.com
+XXX cloudapis.googleapis.com
+cloudresourcemanager.googleapis.com
+cloudtrace.googleapis.com
+datastore.googleapis.com
+deploymentmanager.googleapis.com
+fcm.googleapis.com
+fcmregistrations.googleapis.com
+firebase.googleapis.com
+firebaseappdistribution.googleapis.com
+firebasedynamiclinks.googleapis.com
+firebaseextensions.googleapis.com
+firebasehosting.googleapis.com
+firebaseinstallations.googleapis.com
+firebaseremoteconfig.googleapis.com
+firebaseremoteconfigrealtime.googleapis.com
+firebaserules.googleapis.com
+firebaserules.googleapis.com
+firestore.googleapis.com
+identitytoolkit.googleapis.com
+logging.googleapis.com
+mobilecrashreporting.googleapis.com
+monitoring.googleapis.com
+pubsub.googleapis.com
+runtimeconfig.googleapis.com
+securetoken.googleapis.com
+servicemanagement.googleapis.com
+serviceusage.googleapis.com
+sql-component.googleapis.com
+storage-api.googleapis.com
+storage-component.googleapis.com
+storage.googleapis.com
+testing.googleapis.com

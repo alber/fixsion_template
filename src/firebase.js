@@ -27,7 +27,8 @@ function enableOffline({ firestore, firebaseApp, auth }) {
 //: {firebaseApp:any; auth:any; firestore: any;}
 export function getFirebase() {
   const existingApp = getApps().at(0);
-  if(existingApp) return initialize();
-  const services = connectToEmulators(initialize());
-  return enableOffline(services);
+  return initialize();
+  //if(existingApp) return initialize();
+  //const services = connectToEmulators(initialize());
+  //return enableOffline(services);
 } 
